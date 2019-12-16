@@ -1,0 +1,130 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    min-height: 120px;
+}
+.navbar-default {
+    background-color: #000000;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+.nav-wrapper {
+    position:absolute;
+    right:0;
+    left:0;
+}
+.my-font{
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    position: absolute;
+    text-align: left;
+
+    left:-15px;
+    right:90%;
+}
+
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+ul{
+    list-style-type: square;
+}
+.list {
+    float:left;
+    width:35%;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.bw_pic{
+    position:relative;
+}
+.bw_pic:not(:hover){
+    filter: grayscale(100%);
+}
+.contain {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    opacity: 1;
+    width:380px;
+    transition: .5s ease;
+    height:253px;
+}
+.my-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    right:20px;
+    padding-left: 35%
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.a:hover {
+    text-decoration:none;
+
+}
+.contain:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: black;
+    color: white;
+
+    padding: 16px 32px;
+}
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+    background-color:grey;
+    color:white;
+
+}
+#intro{
+    height:850px;
+    display:block;
+}
+#about{
+    height: 430px;
+    display:block;
+    color:white;
+}
+#skills{
+    height:450px;
+    display:block;
+}
+#projects{
+    height:500px;
+    display:block;
+}
+#contact{
+    height:450px;
+    display:block;
+}
