@@ -4,15 +4,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <meta charset="UTF-8">
     <title>Isra Aweis</title>
 </head>
 <body>
+
 <section id="intro">
 
+
 <nav class="navbar navbar-custom nav-wrapper navbar-expand-md navbar-default navbar-fixed justify-content-md-center ">
-    <a href="index.html"><img alt="logo"src="MyLogo.PNG" width="60px" height="90px"> </a>
+    <a href="index.html"><img alt="logo" src="MyLogo.PNG" width="60px" height="90px"> </a>
     <div class="navbar-collapse justify-content-between align-items-center ">
+        &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
         <ul class="navbar-nav mx-auto text-md-center text-left">
             <li class="nav-item">
                 <a href="#about" class="nav-link">ABOUT</a>
@@ -32,16 +37,33 @@
         </ul>
 
     </div>
+
+    <a href="https://github.com/Isra-a">
+        <img alt="github" src="thisgit.png" style="width:50px;height:50px">
+    </a>
+
+
+    &emsp;
+    <a href="https://www.linkedin.com/in/isra-aweis-635823123/">
+        <img src="thislinkedin.png" alt="linkedin" style="width:50px;height:30px">
+    </a>
+    &emsp;
+
+
+
 </nav>
 
     <div class="container">
-    <img alt="pic" src="Pic11.jpg" style="width: auto;height: 850px;position: relative;z-index: -1;">
+    <img alt="pic" src="Pic11.jpg" style="width: 1483px;height: 850px;position: relative;z-index: -1;">
     <div class="centered"><p style="font-family: 'Poppins', sans-serif; font-size: 120px;font-weight: 900;color:white">Isra&nbsp;Aweis</p></div>
     </div>
 
 
 
 </section>
+
+
+</div>
 
 <section id="about" style="background-color: black">
     <p style="font-family: 'Poppins', sans-serif; font-size: 110px;font-weight: 900;color:white;">About</p>
@@ -54,6 +76,7 @@
 
 
 </section>
+
 
 <section id="skills" style="background-color: grey">
     <p style="font-family: 'Poppins', sans-serif; font-size: 110px;font-weight: 900;">Skills</p>
@@ -90,53 +113,152 @@
 </section>
 
 <section id="projects">
+
     <p style="font-family: 'Poppins', sans-serif; font-size: 110px;font-weight: 900;">Projects</p>
-    <div class="row">
-        <div class="column">
-            <div class="bw_pic">
-                <div class="contain">
-                    <img src="yellowempman.jpg" alt="yellowEmpManSys" class="image">
-                    <div class="middle">
-                        <div class="text my-text">
-                            <a href="https://github.com/Isra-a/Employee-Management-System">Employee Management System</a>
-                        </div>
+
+
+<div class="row">
+    <div class="column">
+        <div class="bw_pic">
+            <div class="contain">
+                <img src="yellowempman.jpg" alt="yellowEmpManSys" style="max-width:400px;cursor:pointer" onclick="onClick(this)"
+                class="modal-hover-opacity image" title="Employee Management System">
+
+                <div class="middle">
+                    <div class="text my-text">
+                        <p>Employee Management System</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="column">
+    </div>
+    <div class="column">
+        <div class="bw_pic">
+            <div class="contain">
+                <img src="yellowweather.jpg" alt="yellowWeatherAppp" style="max-width:400px;cursor:pointer" onclick="onClick(this)"
+                class="modal-hover-opacity image" title="Weather Application">
+
+                <div class="middle">
+                    <div class="text my-text">
+                        <p>Weather Application</p>
+                    </div>
+
+                </div>
+            </div>
+         </div>
+     </div>
+    <div class="column">
+        <div class="contain">
             <div class="bw_pic">
-                <div class="contain">
-                    <img src="yellowweather.jpg" alt="yellowWeatherAppp" class="image">
-                    <div class="middle">
-                        <div class="text my-text"><a href="https://github.com/Isra-a/Weather-Application">Weather Application</a>
-                        </div>
+                <img src="yellowrob.jpg" alt="yellowRobot" style="max-width:400px;cursor:pointer" onclick="onClick(this)"
+                     class="modal-hover-opacity image" title="Robotic Car">
+
+                <div class="middle">
+                    <div class="text my-text">
+                        <p>Robotic Car</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+    <div class="column">
+        <div class="contain">
+            <div class="bw_pic">
+                <img src="yellowweb.jpg" alt="yellowWeb"  style="max-width:400px;cursor:pointer" onclick="onClick(this)"
+                     class="modal-hover-opacity image" title="Personal Website">
+
+                <div class="middle">
+                    <div class="text my-text">
+                        <p>Personal Website</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="column">
-            <div class="bw_pic">
-                <div class="contain">
-                    <img src="yellowrob.jpg" alt="yellowRobot" class="image">
-                    <div class="middle">
-                        <div class="text my-text">
-                            <a href="https://github.com/Isra-a/RoboticsFall2019GSU">Robotic Car</a>
-                        </div>
-                    </div>
-                </div>
+    </div>
+</div>
+
+
+    <div id="modal01" class="modal">
+        <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <div class="modal-content">
+            <img id="img01" style="max-width:100%">
+            <div id="Employee Management System" style="color:black; ">
+                <p style="font-family: 'Poppins', sans-serif; font-size: 35px;font-weight:bold;padding-left: 5%">
+                    Employee Management System
+                </p>
+                <p style="font-family: 'Poppins', sans-serif; font-size: 20px;;padding-left: 5%; text-justify: auto">
+                    I created an employee management system using SQL and Java. The application allows users to add, update and delete employee
+                    information. I came up with the idea of making it because I realized how inefficient the system at a small buisness I worked
+                    at was. I am updating it to add log-in features and making it into a web application using Java.
+                </p>
             </div>
-        </div>
-        <div class="column">
-            <div class="bw_pic">
-                <div class="contain">
-                    <img src="yellowweb.jpg" alt="yellowWeb" class="image">
-                    <div class="middle">
-                        <div class="text my-text">
-                            <a href="https://github.com/Isra-a/PersonalWebsite">Personal Website</a>
+            <div id="Weather Application" style="color:black; display : none">
+                <p style="font-family: 'Poppins', sans-serif; font-size: 35px;font-weight:bold;padding-left: 5%">
+                    Weather Application
+                </p>
+                <p style="font-family: 'Poppins', sans-serif; font-size: 20px;;padding-left: 5%; text-justify: auto">
+                    I created a weather application in Java using OpenWeatherMap API in Android Studio. The app retrieves tempreture, humidity,
+                    time of sunrise/sunset, and other weather information from the API based on location.
+                </p>
+            </div>
+            <div id="Robotic Car" style="color:black; display : none">
+                <p style="font-family: 'Poppins', sans-serif; font-size: 35px;font-weight:bold;padding-left: 5%">
+                    Robotic Car
+                </p>
+                <p style="font-family: 'Poppins', sans-serif; font-size: 20px;;padding-left: 5%">
+                    Over the course of a semester I worked on a class project building a robot in Python. The robot could respond to keyboard/mouse
+                    control, avoid objects when driving automatically, detect colors and faces, and capture still and moving images.
+                </p>
+
+
+                <div class="video-slider">
+                    <!-- SLIDE 1 -->
+                    <div class="slide">
+                        <video class="slider-video"  controls muted>
+                            <source src="RobotVid.mp4" type="video/mp4" />
+
+                        </video>
+                        <div class="overlay-content">
+                            <div class="play-button"></div>
                         </div>
                     </div>
+                    <!-- SLIDE 2 -->
+                    <div class="slide">
+                        <video class="slider-video" controls muted>
+                            <source src="RobotVid2.mp4" type="video/mp4" />
+
+                        </video>
+                        <div class="overlay-content">
+                            <div class="play-button"></div>
+                        </div>
+                    </div>
+                    <!-- SLIDE 3 -->
+                    <div class="slide">
+                        <video class="slider-video" controls muted>
+                            <source src="RobotVid3.mp4" type="video/mp4" />
+
+                        </video>
+                        <div class="overlay-content">
+                            <div class="play-button"></div>
+                        </div>
+                    </div>
+                    <!-- END OF SLIDES -->
+                    <div class="slide-arrow left"></div>
+                    <div class="slide-arrow right"></div>
                 </div>
+
+
+            </div>
+            <div id="Personal Website" style="color:black; display : none">
+                <p style="font-family: 'Poppins', sans-serif; font-size: 35px;font-weight:bold;padding-left: 5%">
+                    Personal Website
+                </p>
+                <p style="font-family: 'Poppins', sans-serif; font-size: 20px;;padding-left: 5%">
+                    I created this website that you are on right now from scratch. I used HTML/CSS and JavaScript. This modal that you are in right now
+                    was created using BootStrap. I used HTML and JavaScript for the contact form below. Since JavaSCript is a client-side scripting
+                    language I used a third-party to send messages directly to my email. I am working on writing a Java program to do that with my own
+                    code.
+                </p>
             </div>
         </div>
     </div>
@@ -146,25 +268,106 @@
     <p style="font-family: 'Poppins', sans-serif; font-size: 20px;right:20px;padding-left: 35%">
         To see more of my projects check out my <a href="https://github.com/Isra-a">Github</a></p>
 
+
 </section>
+
+
 
 <section id="contact" style="background-color: black; color:white;">
     <p style="font-family: 'Poppins', sans-serif; font-size: 110px;font-weight: 900;">Contact</p>
     <p style="font-family: 'Poppins', sans-serif; font-size: 20px;right:20px;">Get in touch with me!<p>
 
-    <a href="https://github.com/Isra-a">
-        <img alt="github" src="ghub.png" style="width:150px;height:170px">
-    </a>
+    <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);"style="padding-left: 20%;">
+        <script type="text/javascript">
+            function ValidateForm(frm) {
+                if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+                if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+                if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+                if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+                return true; }
+        </script>
+        <table style="width:550px;border:0;" cellpadding="8" cellspacing="0">
+            <tr> <td>
+                <label for="Name">Name:</label>
+            </td> <td>
+                <input name="Name" type="text" maxlength="60" style="width:500px;" />
+            </td> </tr> <tr> <td>
 
-    <a href="mailto:israaweis@gmail.com">
-        <img src="maila.png" alt="email" style="width:150px;height:170px">
-    </a>
+            <label for="FromEmailAddress">Email address:</label>
+        </td> <td>
+            <input name="FromEmailAddress" type="text" maxlength="90" style="width:500px;" />
+        </td> </tr> <tr> <td>
+            <label for="Comments">Comments:</label>
+        </td> <td>
+            <textarea name="Comments" rows="7" cols="40" style="width:500px;"></textarea>
+        </td> </tr> <tr> <td>
 
-    <a href="https://www.linkedin.com/in/isra-aweis-635823123/">
-        <img src="link.png" alt="linkedin" style="width:150px;height:120px">
-    </a>
+        </td> <td>
+            <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email" style="color:black">
+                form to email
+            </a></div>
+            <input name="skip_Submit" type="submit" value="Submit" />
+            <script src="https://www.100forms.com/js/FORMKEY:TPRMUHW4WX4D/SEND:israaweis@gmail.com" type="text/javascript"></script>
+        </td> </tr>
+        </table>
+    </form>
+
+
+
 
 </section>
 
+<script>
+    function onClick(event) {
+        const selectedElement = event.getAttribute("title")
+        const allCaptions = document.getElementById(selectedElement)
+        allCaptions.style.display = 'block';
+        document.getElementById("modal01").style.display = "block";
+        document.querySelector('.modal').addEventListener('click', function (event) {
+
+            document.getElementById("modal01").style.display = "none";
+            allCaptions.style.display = 'none';
+        })
+    }
+</script>
+<script>
+    $('.play-button').on('click', function () {
+        $(this).hide();
+        $(this).parent().fadeOut();
+        $(this).parent().siblings('.slider-video')[0].play();
+    });
+
+    $('.slider-video').on('play', function () {
+        $(this).attr('controls', '1');
+    });
+
+    // Additionnal code for the slider
+    var pos = 0,
+        slides = $('.slide'),
+        numOfSlides = slides.length;
+
+    function nextSlide(){
+        stopCurrentVideo();
+        slides.eq(pos).animate({left:'-100%'},500);
+        pos = pos >= numOfSlides-1 ? 0 : ++pos;
+        slides.eq(pos).css({left:'100%'}).animate({left:0},500);
+    }
+
+    function previousSlide(){
+        stopCurrentVideo();
+        slides.eq(pos).animate({left:'100%'},500);
+        pos = pos == 0 ? numOfSlides-1 : --pos;
+        slides.eq(pos).css({left:'-100%'}).animate({left:0},500);
+    }
+
+    function stopCurrentVideo(){
+        $('.slider-video:eq('+pos+')').load().removeAttr('controls')
+            .siblings('.overlay-content').show().find('.play-button').show();
+    }
+
+    $('.left').click(previousSlide);
+    $('.right').click(nextSlide);
+</script>
 </body>
+
 </html>
