@@ -5,6 +5,7 @@ body, html {
     align-items: stretch;*/
     padding: 0;
     height: 300vh;
+    overflow-x: hidden;
 }
 
 .navbar {
